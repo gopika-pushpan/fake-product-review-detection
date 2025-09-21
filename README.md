@@ -36,3 +36,19 @@ We built and compared **Traditional ML models** and **Deep Learning models**:
 ---
 
 ## 📂 Project Structure
+
+fake-product-review-detection/
+│── app.py                 # Flask backend
+│── requirements.txt       # Dependencies
+│── README.md              # Documentation
+│── models/                # Trained models
+│   ├── lstm_fake_review_model.h5
+│   ├── tokenizer.pkl
+│   ├── logistic_model.pkl
+│   ├── svm_model.pkl
+│   └── tfidf.pkl
+│── templates/             # Frontend
+│   ├── index.html
+│   └── result.html
+│── output_charts/         # Graphs & reports
+
